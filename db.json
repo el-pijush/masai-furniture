@@ -9,7 +9,7 @@
       },
       {
         "id": 2,
-        git add .  "type":"chair",
+          "type":"chair",
         "year": 2017,
         "Description": "Gaming Chair",
         "Price": 8000
