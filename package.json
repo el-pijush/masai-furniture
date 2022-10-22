@@ -1,0 +1,22 @@
+{
+  "name": "masai-furniture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/el-pijush/masai-furniture.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/el-pijush/masai-furniture/issues"
+  },
+  "homepage": "https://github.com/el-pijush/masai-furniture#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
