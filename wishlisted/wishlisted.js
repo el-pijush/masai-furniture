@@ -1,4 +1,4 @@
-fetch(' http://localhost:3000/wishlisted')
+fetch(' https://pijush-app.herokuapp.com/wishlisted')
 .then((response) => response.json())
 .then((data) =>
 {

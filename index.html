@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <style>
+        #nav1{
+            width: 1400px;
+            height: 70px;
+            background-color: rgb(3, 28, 28);
+            margin: auto;
+        }
+
+        #login{
+         width: 200px;
+         height: 70%;
+         margin-top: 10px;
+         font-size: 30px;
+         font-family: serif;
+         font-style: italic;
+         margin-inline-start: 700px;
+        }
+        #data{
+         width: 200px;
+         height: 70%;
+         margin-top: 10px;
+         font-size: 30px;
+         font-family: serif;
+         font-style: italic;
+         margin-inline-start: 30px;
+        }
+        #reports{
+         width: 200px;
+         height: 70%;
+         margin-top: 10px;
+         font-size: 30px;
+         font-family: serif;
+         font-style: italic;
+         margin-inline-start: 30px;
+        }
+       
+    </style>
+    <nav id="nav1">
+        <button id="login" onclick="login()"> Product</button>
+        <button id="data" onclick="data()"> ad</button>
+        <button id="reports" onclick="reports()">wishlisted</button>
+    </nav>
+</body>
+
+<script >
+function login(){
+    window.open("./product/product.html")
+}
+function data(){
+    window.open("./ad/ad.html")
+}
+function reports(){
+    window.open("./wishlisted/wishlisted.html")
+}
+</script>
+</html>

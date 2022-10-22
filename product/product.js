@@ -1,5 +1,5 @@
 
-fetch(' http://localhost:3000/furniture')
+fetch('https://pijush-app.herokuapp.com/furniture')
 .then((response) => response.json())
 .then((data) =>
 {console.log(data)
@@ -18,7 +18,7 @@ function display(arr){
          button.addEventListener("click",event=>{
             event.preventDefault()
             const data=element
-            fetch(" http://localhost:3000/wishlisted",{
+            fetch("https://pijush-app.herokuapp.com/wishlisted",{
                 method:"POST",
                 headers:{
                 'Content-Type':"application/json"
